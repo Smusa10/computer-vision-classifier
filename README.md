@@ -18,22 +18,22 @@ A beginner machine learning application that classifies a pen or a phone from a 
 
 # How it works
 - The app opens the webcam and captures frames.
-- Each frame is then resized for the model to read/use.
-- The image is then normalised so that the model can read pixels accurately.
+- Each frame is then resized to the dimentions expected by the model.
+- The image is then normalised so that the pixel values match what the model expects.
 - Then the model makes a prediction and gives us confidence scores.
 - The app then selects the label with the highest confidence and displays it on the webcam frame.
 
 # Files 
-- Classifier.py : Main script for the image 
-- Keras_model.h5 : The trained Machine Learning model itself
-- Labels.txt : Class labels used by the model
+- classifier.py : Main script for the image 
+- keras_model.h5 : The trained Machine Learning model itself
+- labels.txt : Class labels used by the model
 
 # How to run
-- Install the required packages
+- Install the required package versions 
 - Run the script
 
   --- Using Bash :
-  Python predict_webcam.py
+  Python classifier.py
 
 # What I learned 
 - How to use OpenCV to capture live webcam frames in python.
