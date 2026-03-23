@@ -34,3 +34,11 @@ A beginner machine learning application that classifies a pen or a phone from a 
 
   --- Using Bash :
   Python predict_webcam.py
+
+# What I learned 
+- How to use OpenCV to capture live webcam frames in python.
+- How to load and use a trained model in python.
+- How to prepare image data so that it matches the format the model expects.
+- How to use model predictions to classify objects in real time.
+- How to debug issues with the model loading, image shape, and prediction flow.
+- How to display real-time predictions on-screen.
