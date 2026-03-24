@@ -23,6 +23,10 @@ A beginner machine learning application that classifies a pen or a phone from a 
 - Then the model makes a prediction and gives us confidence scores.
 - The app then selects the label with the highest confidence and displays it on the webcam frame.
 
+## Custom UI chages 
+- The image output was inverted, so I flipped the image vertically. 
+- I also adjusted the positioning of the label on the display to the top left of the screen. 
+
 ## Files 
 - 'classifier.py' : Main script for the image 
 - 'keras_model.h5' : The trained Machine Learning model itself
